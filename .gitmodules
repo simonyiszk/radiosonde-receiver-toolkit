@@ -1,6 +1,9 @@
-[submodule "RS"]
-	path = RS
-	url = https://github.com/rs1729/RS/
 [submodule "SDRPlusPlus"]
 	path = SDRPlusPlus
-	url = https://github.com/AlexandreRouma/SDRPlusPlus
+	url = https://github.com/AlexandreRouma/SDRPlusPlus/
+[submodule "RS"]
+	path = RS
+	url = https://github.com/rs1729/RS
+[submodule "sdrpp_radiosonde"]
+	path = sdrpp_radiosonde
+	url = https://github.com/fred-corp/sdrpp_radiosonde
