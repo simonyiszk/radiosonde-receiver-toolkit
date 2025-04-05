@@ -1,6 +1,6 @@
-# Radiosonde receiver toolkit
-===================================
-Interoperability of different software packages for on-the-field reception and decoding of radiosonde signals.
+Radiosonde receiver toolkit
+===============
+Collection and interoperability of different software packages for on-the-field reception and decoding radiosonde signals.
 
 Contents:
 - Radiosonde decoder plugin for SDR++
@@ -8,7 +8,7 @@ Contents:
 - gpsd intergation to show real-time flight data on map
 - Termux scripts for Android to support on-site balloon hunting using RTL-SDR
 
-## Radiosonde decoder plugin for SDR++
+Radiosonde decoder plugin for SDR++
 ---------------
 
 Using this [patch](https://github.com/fred-corp/sdrpp_radiosonde) based on the [original repository](https://github.com/dbdexter-dev/sdrpp_radiosonde).
@@ -16,7 +16,6 @@ Using this [patch](https://github.com/fred-corp/sdrpp_radiosonde) based on the [
 ![radiosondeGPX](https://user-images.githubusercontent.com/17110004/144872708-2a578c62-5493-4845-9098-9328c4e914bf.png)
 
 ### Compatibility:
---------------
 
 | Manufacturer | Model       | GPS                | Temperature        | Humidity           | XDATA              |
 |--------------|-------------|--------------------|--------------------|--------------------|--------------------|
@@ -30,8 +29,7 @@ Using this [patch](https://github.com/fred-corp/sdrpp_radiosonde) based on the [
 | Meteolabor   | SRS-C50     |          ✔         |          ✔         |                    |                    |
 | Meteo-Radiy  | MRZ-N1      |          ✔         |          ✔         |                    |                    |
 
-### Bulding from source:
---------------
+### Building from source:
 1. Add the plugin to sources:
 ```cp -r sdrpp_radiosonde SDRPlusPlus/decoder_modules```
 
@@ -51,11 +49,9 @@ endif (OPT_BUILD_RADIOSONDE_DECODER)
 
 6. Enable the module by adding it via the module manager
 
-
-## References:
+References:
+===============
 - https://github.com/osmocom/rtl-sdr
-- https://github.com/rs1729/RS/
-- https://github.com/AlexandreRouma/SDRPlusPlus
 - https://github.com/martinmarinov/rtl_tcp_andro-
 - https://github.com/termux
 - https://k3xec.com/rtl-tcp/
