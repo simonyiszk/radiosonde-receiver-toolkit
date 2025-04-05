@@ -7,6 +7,10 @@ Collection and interoperability of different software packages for reception and
 - Command-line tool for decoding telemetry packets using RTL-SDR with gpsd intergation to show real-time flight data on map
 - Termux scripts for Android to support on-site balloon hunting using RTL-SDR
 
+```
+git clone --recurse-submodules https://github.com/simonyiszk/radiosonde-receiver-toolkit
+```
+
 Radiosonde decoder plugin for SDR++
 ---------------
 Using this [patch](https://github.com/fred-corp/sdrpp_radiosonde) based on the [original repository](https://github.com/dbdexter-dev/sdrpp_radiosonde).
@@ -49,7 +53,13 @@ endif (OPT_BUILD_RADIOSONDE_DECODER)
 
 Command-line tool
 ---------------
-Coming soon
+```
+cd sonde-cli
+gcc -c ../RS/demod/mod/bch_ecc_mod.c
+gcc -c ../RS/demod/mod/demod_mod.c
+gcc ../RS/demod/mod/rs41mod.c demod_mod.o bch_ecc_mod.o -lm -o rs41mod
+cp ../RS/tools/pos2nmea.pl .
+```
 
 Termux scripts for Android
 ---------------
