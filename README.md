@@ -1,16 +1,14 @@
 Radiosonde receiver toolkit
 ===============
-Collection and interoperability of different software packages for on-the-field reception and decoding radiosonde signals.
+Collection and interoperability of different software packages for reception and decoding radiosonde signals.
 
-Contents:
+### Contents:
 - Radiosonde decoder plugin for SDR++
-- Command-line tool for decoding telemetry packets using RTL-SDR
-- gpsd intergation to show real-time flight data on map
+- Command-line tool for decoding telemetry packets using RTL-SDR with gpsd intergation to show real-time flight data on map
 - Termux scripts for Android to support on-site balloon hunting using RTL-SDR
 
 Radiosonde decoder plugin for SDR++
 ---------------
-
 Using this [patch](https://github.com/fred-corp/sdrpp_radiosonde) based on the [original repository](https://github.com/dbdexter-dev/sdrpp_radiosonde).
 
 ![radiosondeGPX](https://user-images.githubusercontent.com/17110004/144872708-2a578c62-5493-4845-9098-9328c4e914bf.png)
@@ -48,6 +46,14 @@ endif (OPT_BUILD_RADIOSONDE_DECODER)
 5. Build and install SDR++ following the [original guide](SDRPlusPlus/readme.md)
 
 6. Enable the module by adding it via the module manager
+
+Command-line tool
+---------------
+Coming soon
+
+Termux scripts for Android
+---------------
+Coming soon
 
 References:
 ===============
