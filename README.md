@@ -68,7 +68,8 @@ chmod +x sonde_map.sh
 For the use of other type of radiosondes, please refer to the [original repository](https://github.com/rs1729/RS/blob/master/demod/mod/README.md).
 
 ### Dependencies:
-[RTL-SDR](https://github.com/osmocom/rtl-sdr)
+[RTL-SDR](https://github.com/osmocom/rtl-sdr) (available as submodule)
+[Installation steps](https://osmocom.org/projects/rtl-sdr/wiki#Building-the-software)
 
 ### Usage:
 `./sonde_cli.sh [F]` where F is the target frequency in MHz. The output will show in the terminal.

@@ -7,3 +7,6 @@
 [submodule "sdrpp_radiosonde"]
 	path = sdrpp_radiosonde
 	url = https://github.com/fred-corp/sdrpp_radiosonde
+[submodule "rtl-sdr"]
+	path = rtl-sdr
+	url = https://github.com/osmocom/rtl-sdr
