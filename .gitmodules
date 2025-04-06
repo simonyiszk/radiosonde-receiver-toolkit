@@ -1,4 +1,0 @@
-[submodule "sdrpp_radiosonde"]
-	path = sdrpp_radiosonde
-	url = https://github.com/fred-corp/sdrpp_radiosonde
-	branch = master
