@@ -78,12 +78,12 @@ For the use of other type of radiosondes, please refer to the [original reposito
 
 Termux scripts for Android
 ---------------
-Install [F-Droid](https://f-droid.org)
-Install [Termux](https://f-droid.org/hu/packages/com.termux/)
-Install [Termux:API](https://f-droid.org/hu/packages/com.termux/)
-Install [RTL-SDR driver](https://f-droid.org/hu/packages/marto.rtl_tcp_andro/)
-Install any application that is capable of displaying location on a map.
-Optional: for general use of RTL-SDR under Android, you can also install [RF Analyzer](https://f-droid.org/hu/packages/com.mantz_it.rfanalyzer/)
+- Install [F-Droid](https://f-droid.org)
+- Install [Termux](https://f-droid.org/hu/packages/com.termux/)
+- Install [Termux:API](https://f-droid.org/hu/packages/com.termux/)
+- Install [RTL-SDR driver](https://f-droid.org/hu/packages/marto.rtl_tcp_andro/)
+- Install any application that is capable of displaying location on a map.
+- Optional: for general use of RTL-SDR under Android, you can also install [RF Analyzer](https://f-droid.org/hu/packages/com.mantz_it.rfanalyzer/)
 
 Build sources, connect the RTL-SDR via USB_OTG  then execute `./Locate.sh`.
 
